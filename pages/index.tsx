@@ -1,7 +1,8 @@
 "use client";
 
-import MobileNavbar from "@/components/helper/MobileNavbar";
-import Navbar from "@/components/helper/Navbar";
+import Hero from "@/components/Hero";
+import MobileNavbar from "@/components/MobileNavbar";
+import Navbar from "@/components/Navbar";
 import React, { useState } from "react";
 
 function HomePage() {
@@ -12,7 +13,7 @@ function HomePage() {
     <div className="overflow-x-hidden">
       <Navbar isOpen={isOpen} toggleNavbar={toggleNavbar} />
       <MobileNavbar isOpen={isOpen} toggleNavbar={toggleNavbar} />
-      {/* <Hero /> */}
+      <Hero />
     </div>
   );
 }
