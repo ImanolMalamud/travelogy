@@ -1,6 +1,7 @@
 "use client";
 
 import Hero from "@/components/Hero";
+import Hotels from "@/components/Hotels";
 import MobileNavbar from "@/components/MobileNavbar";
 import Navbar from "@/components/Navbar";
 import TopDestination from "@/components/TopDestination";
@@ -16,6 +17,7 @@ function HomePage() {
       <MobileNavbar isOpen={isOpen} toggleNavbar={toggleNavbar} />
       <Hero />
       <TopDestination />
+      <Hotels />
     </div>
   );
 }
