@@ -39,7 +39,7 @@ const DestinationSlider = () => {
       centerMode={false}
       infinite
       responsive={responsive}
-      itemClass="!flex !flex-col !items-center"
+      itemClass="item"
     >
       {destinations.map((destination) => (
         <div key={destination.id} className="bg-container">

@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import Hotels from "@/components/Hotels";
 import MobileNavbar from "@/components/MobileNavbar";
 import Navbar from "@/components/Navbar";
+import Reviews from "@/components/Reviews";
 import TopDestination from "@/components/TopDestination";
 import React, { useState } from "react";
 
@@ -18,6 +19,7 @@ function HomePage() {
       <Hero />
       <TopDestination />
       <Hotels />
+      <Reviews />
     </div>
   );
 }
