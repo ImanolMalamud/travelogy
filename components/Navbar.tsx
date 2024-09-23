@@ -1,6 +1,7 @@
-import { Bars3Icon } from "@heroicons/react/16/solid";
-import Image from "next/image";
 import React from "react";
+import Image from "next/image";
+
+import { Bars3Icon } from "@heroicons/react/16/solid";
 
 interface Props {
   isOpen: boolean;
