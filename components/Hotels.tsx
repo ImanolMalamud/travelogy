@@ -66,7 +66,7 @@ const Hotels = () => {
       <h1 className="heading">Best Hotels</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[3rem] items-center w-[80%] mx-auto mt-[4rem]">
         {HOTELS_INFO.map((hotel) => (
-          <div>
+          <div key={hotel.name}>
             <HotelCard
               name={hotel.name}
               city={hotel.city}

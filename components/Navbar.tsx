@@ -7,7 +7,7 @@ interface Props {
   toggleNavbar: () => void;
 }
 
-function Navbar({ isOpen, toggleNavbar }: Props) {
+function Navbar({ toggleNavbar }: Props) {
   return (
     <div className="w-[100%] bg-white">
       <div className="flex w-[80%] mx-auto items-center justify-between h-[12vh]">
