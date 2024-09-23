@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className="pt-[8rem] pb-[3rem]">
       <div className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-[3rem]">
-        <div>
+        <div data-aos="fade-right" data-aos-delay="600">
           <Image
             src="/images/c1.png"
             alt="fly"
@@ -14,7 +14,11 @@ const Contact = () => {
             className="object-contain rounded-xl mx-auto p-[1rem]"
           />
         </div>
-        <div className="flex items-center justify-center flex-col">
+        <div
+          data-aos="fade-left"
+          data-aos-delay="800"
+          className="flex items-center justify-center flex-col"
+        >
           <h1 className="text-center w-[90%] xl:w-[70%] tracking-[0.1rem] mx-auto font-bold text-[20px] md:text-[30px] text-black">
             Get special offers and more from Traveler
           </h1>
