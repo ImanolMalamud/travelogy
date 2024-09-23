@@ -1,6 +1,7 @@
 "use client";
 
 import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Hotels from "@/components/Hotels";
 import MobileNavbar from "@/components/MobileNavbar";
@@ -22,6 +23,7 @@ function HomePage() {
       <Hotels />
       <Reviews />
       <Contact />
+      <Footer />
     </div>
   );
 }
